@@ -85,7 +85,7 @@
 }
 
 .hero .content h1, .hero .content h1 span {
-  font-size: 6rem;
+  font-size: 6vw;
   line-height: 7rem;
   letter-spacing: 1.4px;
   color: #fbd14b; /* Yellow text */
@@ -496,3 +496,5 @@
   color: #ffdd44; /* Lighter yellow hover */
   transform: translateY(-3px);
 }
+
+
