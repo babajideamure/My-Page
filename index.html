@@ -76,30 +76,52 @@
       <h2>My Portfolio</h2>
       <div class="portfolio-items">
         <div class="portfolio-item">
-          <img src="path-to-project-image.jpg" alt="Project 1">
-          <h3>Project Title 1</h3>
-          <p>A brief description of the project. What problem it solves and how you built it.</p>
-          <p>Technologies: HTML, CSS, React, etc.</p>
-          <a href="link-to-live-project" target="_blank">View Project</a>
-          <a href="link-to-github-repo" target="_blank">GitHub Repo</a>
+          <img src="./project 1.png" alt="Razer Order Page">
+          <h3>Razer Order Page</h3>
+          <p>A replica of the Razer order page built using HTML and CSS. This project showcases my ability to recreate real-world web designs with clean, responsive layouts.</p>
+          <p>Technologies: HTML & CSS</p>
+          <a href="https://babajideamure.github.io/Razer/" target="_blank">View Project</a>
+          <a href="https://github.com/babajideamure/Razer" target="_blank">GitHub Repo</a>
         </div>
         
         <div class="portfolio-item">
-          <img src="path-to-project-image.jpg" alt="Project 2">
-          <h3>Project Title 1</h3>
-          <p>A brief description of the project. What problem it solves and how you built it.</p>
-          <p>Technologies: HTML, CSS, React, etc.</p>
-          <a href="link-to-live-project" target="_blank">View Project</a>
-          <a href="link-to-github-repo" target="_blank">GitHub Repo</a>
+          <img src="./project 2.png" alt="Create Account Form">
+          <h3>Account Creation Page</h3>
+          <p>A sleek and user-friendly account creation form designed with HTML and CSS. This project emphasizes form structure, input validation, and responsive design, ensuring a smooth user experience across devices.</p>
+          <p>Technologies: HTML & CSS</p>
+          <a href="https://github.com/babajideamure/form-design" target="_blank">View Project</a>
+          <a href="https://babajideamure.github.io/form-design/" target="_blank">GitHub Repo</a>
         </div>
       </div>
     </div>
 
-    <!-- Contact Section -->
-    <div id="contact" class="contact">
-      <h2>Contact</h2>
-      <a href="contact.html" target="_blank">Contact Me</a>
+<div id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Feel free to reach out using the form below:</p>
+  <form action="//formspree.io/f/xqaebpwg" method="POST" class="contact-form">
+    <div class="form-group">
+      <div class="row-one">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter First Name" required>
+      </div>
+      <div class="row-one">
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter Last Name" required>
+      </div>
     </div>
+    <div class="row-one">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter Email" required>
+    </div>
+    <div class="form-group">
+      <div class="row-one">
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" placeholder="Enter your message" rows="5" required></textarea>
+      </div>
+    </div>
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</div>
   </div>
 
   <script src="./script.js"></script>
